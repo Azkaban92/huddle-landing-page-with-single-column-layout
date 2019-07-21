@@ -100,32 +100,81 @@ textarea {
 @media screen and (max-width: 767px)
 
 {
-  p {font-family: "Open Sans"; font-weight: 400;}
+body {font-size: 16px;}
 
-  .heading {font-family: "Poppins"; font-weight: 400;}
+p {font-family: "Open Sans";
+   font-weight: 400;}
 
- #logo {float: left; width: ; height: ;}
+.heading {font-family: "Poppins";
+          font-weight: 700;
+          color: #00252e;}
 
- body {font-size: 16px;}
+.p-initial {color: #848d94;
+            margin: 0px 67px 41px 67px;
+            text-align: center;}
 
- #logo {float: left;
-        width: 132px;
-        height: 25px;
-        margin-left: 24px;
-        margin-top: 28px;
-        margin-bottom: 128px;}
+.h-build {margin-bottom: 37px;}
 
-        #illustration {width: 297px;
-                      height: 185px;
-                      margin-bottom: 73px;
-                      text-align: center;}
+#logo {float: left;
+       width: 132px;
+       height: 25px;
+       margin-left: 24px;
+       margin-top: 28px;
+       margin-bottom: 128px;}
 
-                      .h-build {clear: both;
-                                margin-left: 57px;
-                                margin-right: 57px;
-                                font-size: 21px;
-                                font-weight: 700;
-                                text-align: center;}
+#illustration {width: 297px;
+               height: 185px;
+               margin-bottom: 73px;
+               text-align: center;}
+
+.h-build {clear: both;
+          margin-left: 57px;
+          margin-right: 57px;
+          font-size: 21px;
+          text-align: center;}
+
+.flex-container {display: flex;
+                 flex-flow: column wrap;
+                 align-items: center;}
+
+#email {color: #a4b0bc;
+        border: 5px solid linear-gradient(#f2f2f4, white);
+        border-radius: 5px;
+        width: 80%;}
+
+input {box-sizing: border-box;
+       padding-left: 20px;
+       margin-bottom: 23px;}
+
+#btn {width: 80%;
+      height: 50px;
+      color: white;
+      background-color: #ff79be;
+      border: none;
+      box-shadow: 5px 8px #f2f2f4;
+      margin-bottom: 125px;}
+
+footer {background-color: #00252e;
+        color: white;}
+
+#logo2 {margin-top: 92px;
+        margin-left: 32px;}
+
+.wlogo {fill: white;}
+
+.fa-twitter {margin: 48px 22px 0px 22px;
+             font-size: 24px;
+             color: white;}
+
+.icons {margin-left: 32px;}
+
+.p-bottom {margin-left: 32px;
+           margin-bottom: 94px;}
+
+#copy {text-align: center;
+       padding-bottom: 47px;}
+
+
 }
 /* ==========================================================================
    Helper classes
