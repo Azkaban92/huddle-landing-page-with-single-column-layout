@@ -139,9 +139,8 @@ footer {background-color: #00252e;
        padding-bottom: 47px;
        margin-bottom: 0;}
 
-       .fa-twitter {margin: 48px 22px 0px 22px;
-                    font-size: 24px;
-                    color: white;}
+.fa-twitter {margin: 48px 22px 0px 22px;
+             color: white;}
 
 /* Mobile */
 
@@ -181,7 +180,7 @@ input {padding-left: 20px;
 
 .logo-bottom {margin: 92px 0 0 32px;}
 
-.icons {margin: 0 0 64px 32px;}
+.icons {margin: 0 0 64px 32px; font-size: 16px;}
 
  .p-bottom {margin-left: 32px;
             margin-top: 27px;}
@@ -225,7 +224,7 @@ input {padding-left: 20px;
 
 .logo-bottom {margin: 92px 0 0 32px;}
 
-.icons {margin: 0 0 64px 32px;}
+.icons {margin: 0 0 64px 32px; font-size: 26px;}
 
  .p-bottom {margin: 27px 0 0 32px;}
 
