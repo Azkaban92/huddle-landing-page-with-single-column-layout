@@ -139,16 +139,9 @@ footer {background-color: #00252e;
        padding-bottom: 47px;
        margin-bottom: 0;}
 
-
-
-
-
-
-
-
-
-
-
+       .fa-twitter {margin: 48px 22px 0px 22px;
+                    font-size: 24px;
+                    color: white;}
 
 /* Mobile */
 
@@ -188,12 +181,7 @@ input {padding-left: 20px;
 
 #logo2 {margin: 92px 0 0 32px;}
 
-.fa-twitter {margin: 48px 22px 0px 22px;
-             font-size: 24px;
-             color: white;}
-
-.icons {margin-left: 32px;
-        margin-bottom: 64px;}
+.icons {margin: 0 0 64px 32px;}
 
  .p-bottom {margin-left: 32px;
             margin-top: 27px;}
@@ -236,10 +224,6 @@ input {padding-left: 20px;
       height: 40px;}
 
 #logo2 {margin: 92px 0 0 32px;}
-
-.fa-twitter {margin: 48px 22px 0px 22px;
-             font-size: 24px;
-             color: white;}
 
 .icons {margin: 0 0 64px 32px;}
 
@@ -297,7 +281,8 @@ input {padding-left: 20px;
                   padding-top: 137px;
                   font-size: 14px;}
 
-.column1-footer {width: 140px; margin-right: 276px;}
+.column1-footer {width: 140px;
+                 margin-right: 276px;}
 
 .column3 {width: 10%;}
 
@@ -307,13 +292,12 @@ input {padding-left: 20px;
 .column6,
 .column7 {width: 7%;}
 
-  .fa-twitter {margin: 48px 22px 0px 22px;
-               font-size: 24px;
-               color: white;}
+  .icons {margin-left: 32px;
+          display: inline;
+          font-size: 36px;}
 
-  .icons {margin-left: 32px; display: inline; font-size: 36px;}
-
-#copy {text-align: right; margin-right: 115px;}
+#copy {text-align: right;
+       margin-right: 115px;}
 
 }
 
